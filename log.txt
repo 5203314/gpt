@@ -1,0 +1,1881 @@
+5月31日 16:08异常通知@机器人5月31日 16:08时间：2023-05-31 17:08:38
+链接：https://kireday.com/autoSortCategories
+IP：47.92.77.114
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+内存：5.517MB
+耗时：0.067S
+错误信息：
+Trying to get property of non-object
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/routes.php 216
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/routes.php(216): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/wwwroot/p...', 216, Array)
+#1 [internal function]: System\Classes\PluginManager->{closure}()
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Routing/Route.php(155): call_user_func_array(Object(Closure), Array)5月31日 16:47异常通知@机器人5月31日 16:47时间：2023-05-31 17:47:06
+链接：https://m.velives.com/checkout/ccpay/payment-return.html?orderAmount=4410.00&orderCurrency=JPY&orderInfo=%7B%22response_type%22%3A%220%22%2C%22account%22%3A%22215281%22%2C%22terminal%22%3A%2221528101%22%2C%22signValue%22%3A%2247FBA825B33878CFC7AE924CF56CBE185500E96AC00F181AAC372C088B23A879%22%2C%22methods%22%3A%22Credit%20Card%22%2C%22order_number%22%3A%22129_68497912716058%22%2C%22order_currency%22%3A%22JPY%22%2C%22order_amount%22%3A%224410.00%22%2C%22order_notes%22%3Anull%2C%22card_number%22%3Anull%2C%22card_type%22%3A%22null%22%2C%22payment_country%22%3A%22CN%22%2C%22payment_id%22%3A%22230525094557764528102%22%2C%22payment_Method%22%3A%22Credit%20Card%22%2C%22payment_authType%22%3A%220%22%2C%22payment_status%22%3A%220%22%2C%22payment_details%22%3A%2250008%3ATransaction%20canceled%20by%20customer%22%2C%22payment_solutions%22%3Anull%2C%22payment_risk%22%3Anull%2C%22payment_amount%22%3A%22null%22%2C%22payment_exchangeRate%22%3A%22null%22%2C%22pay_userId%22%3A%22null%22%2C%22pay_barCode%22%3Anull%2C%22payment_bankInfo%22%3Anull%7D&orderNo=68497912716058&orderStatus=FAILED&paymentCode=ocean_aed
+IP：161.129.39.137
+用户id：1281
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/113.0.5672.121 Mobile/15E148 Safari/604.1
+内存：9.754MB
+耗时：0.268S
+错误信息：
+Trying to get property of non-object
+错误文件：
+/home/wwwroot/storage/cms/cache/67/b7/ccpay-payment-return.htm.php 15
+堆栈信息：
+#0 /home/wwwroot/storage/cms/cache/67/b7/ccpay-payment-return.htm.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/wwwroot/s...', 15, Array)
+#1 /home/wwwroot/modules/cms/classes/Controller.php(427): Cms67b7a8cca6fb1018dffa4181bb3a5e61Class->onStart()
+#2 /home/wwwroot/modules/cms/classes/Controller.php(349): Cms\Classes\Controller->execPageCycle()5月31日 17:18异常通知@机器人5月31日 17:18时间：2023-05-31 18:18:29
+链接：https://m.kireday.com/accessories-c-147.html?debug3=1&debug_c=1&page=1
+IP：183.14.134.82
+用户id：6
+设备UA：Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Mobile Safari/537.36
+内存：8.219MB
+耗时：0.177S
+错误信息：
+Undefined index: id
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/Products.php 9561
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(9561): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 9561, Array)
+#1 /home/wwwroot/plugins/jason/ccshop/services/ProductService.php(5853): Jason\Ccshop\Controllers\Products->flushCategoryProductsFromDb(Array, Array, false, 0, 0, Array, Array, false, 0, Array)
+#2 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(10036): Jason\Ccshop\Services\ProductService::getCategoryProductIdsFromDb(147, Array, 0, 0, false, false, 0, Array, Array, Array, false)5月31日 18:01异常通知@机器人5月31日 18:01时间：2023-05-31 19:01:17
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/9384
+IP：117.22.144.252
+管理员邮箱：yuanxiaoye@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：9.063MB
+耗时：3.771S
+错误信息：
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9384-Jason\Ccshop\Models\Product-reviews_total' for key 'cc_custom_fileds_bind_id_bind_type_name_unique' (SQL: insert into `cc_custom_fields` (`bind_id`, `bind_type`, `name`, `value`) values (9384, Jason\Ccshop\Models\Product, reviews_total, ))
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('insert into `cc...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(391): Illuminate\Database\Connection->run('insert into `cc...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(347): Illuminate\Database\Connection->statement('insert into `cc...', Array)6月2日 13:56异常通知@机器人6月2日 13:56时间：2023-06-02 14:56:50
+链接：https://m.orladys.com/lucky-bag.html
+IP：183.14.135.42
+用户id：5
+设备UA：Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Mobile Safari/537.36
+内存：9.561MB
+耗时：0.193S
+错误信息：
+Call to undefined method Jason\Ccshop\Services\ProductSectionService::getLuckData()
+错误文件：
+/home/wwwroot/modules/cms/classes/CodeParser.php(372) : eval()'d code 12
+堆栈信息：
+#0 /home/wwwroot/modules/cms/classes/Controller.php(427): Cms34ec1897e4f27e2b6f2c73966052dfe9Class->onstart()
+#1 /home/wwwroot/modules/cms/classes/Controller.php(349): Cms\Classes\Controller->execPageCycle()
+#2 /home/wwwroot/modules/cms/classes/Controller.php(213): Cms\Classes\Controller->runPage(Object(Cms\Classes\Page))6月2日 14:44异常通知@机器人6月2日 14:44时间：2023-06-02 15:44:53
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/idsortreportscenter/work_product_data
+IP：183.14.135.42
+管理员邮箱：yanlifang@jing-pai.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：9.32MB
+耗时：0.631S
+错误信息：
+Unsupported operand types
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php 1757
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php(1569): Jason\Ccshop\Services\ProductSectionLineService::getDbOrdersOnDay('2023-05-27', '2023-06-03', Array, Array)
+#1 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php(1983): Jason\Ccshop\Services\ProductSectionLineService::getLineReportShopSite(Array, '2023-05-27', '2023-06-02', 'facebook', '0032')
+#2 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionLineService::Jason\Ccshop\Services\{closure}()6月2日 16:26异常通知@机器人6月2日 16:26时间：2023-06-02 17:26:31
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/idsortreportscenter/work_product_data
+IP：163.123.192.54
+管理员邮箱：shiqingzhai@jing-pai.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+内存：14.321MB
+耗时：1.371S
+错误信息：
+Undefined index: page_abb
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php 1706
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php(1706): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 1706, Array)
+#1 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php(1681): Jason\Ccshop\Services\ProductSectionLineService::getAddCartPidsOnDay(Object(October\Rain\Database\QueryBuilder), Array)
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionLineService.php(1987): Jason\Ccshop\Services\ProductSectionLineService::getLineReportShopSite(Array, '2023-05-01', '2023-05-31', 'facebook', '0014')6月5日 15:04异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:11
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR3qosldXjzeorEj2LjGTSOfjQoMoKx6nxFtoAtz_oYnOA0Ep4cQ3-zPkAs&id_sort=8397
+IP：173.252.95.24
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.177MB
+耗时：0.175S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:14
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAaZq8REp4lHlZvMNtd8ESZXTGyvMsGGiiAb2GdAbbX-zJ7dkrx1zqsdTplc_aem_th_AZ4b3rOn-9iZKdHdflUjxp4RMyDxK4hcPDtJS7G-BUh-MX9gQBXchxa2KgOXEyHD42gmnvwd0zFe1mcYv_EzlGW8&id_sort=2323&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2323-0525&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2323-0525
+IP：106.131.191.83
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 9; HWV32 Build/HUAWEI-HWV32; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (28/9; 408dpi; 1080x2060; HUAWEI; HWV32; HWANE; hi6250; ja_JP; 479968467)
+内存：7.258MB
+耗时：0.107S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:21
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabtWnMKaZvKZhsmmXzKGQpzZacdGqnot9wriCzVYj71ChocEc38G1U0o_k_aem_th_AZ7RaOvDF46ptjV8eB1k-FQrYsTTHRgjyHcbS4sZZ7LRxU_0x5pwW-7gZ7ewStsrr3twiNCF8NExMFS3ahMvgCPz&id_sort=3636&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0009-1-3636-0522&utm_source=facebook.com&utm_term=honseo-NKJ--%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-3636-0522
+IP：106.180.8.1
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SHG07 Build/S328J; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (30/11; 440dpi; 1080x2320; SHARP/KDDI; SHG07; BOL; qcom; ja_JP; 479968420)
+内存：7.242MB
+耗时：0.121S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:24
+链接：https://m.velives.com/design-sale.html?fbclid=PAAaYgYVJHiPHSl9Txt62wd_haMTaj0P7XqCRVl1II2RiZbbz1h4TmrkWPq4s_aem_th_AZ7zkdHRjUtYjZU8Fqb7t5R4MfyJpPQKmIlcFPCRnYe2zXqO9TQusEVKXX-SrA3f38TDDOZRqUkCLUhkQjyOZk8C&id_sort=5637&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC2-int-CC-check-0001-2-5637-0529&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC2-0001-5637-0529
+IP：60.108.145.77
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone12,8; iOS 16_5; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.253MB
+耗时：0.146S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:26
+链接：https://m.irotype.com
+IP：223.218.0.77
+用户id：2815
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+内存：7.421MB
+耗时：0.14S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:34
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAaZq8REp4lHlZvMNtd8ESZXTGyvMsGGiiAb2GdAbbX-zJ7dkrx1zqsdTplc_aem_th_AZ4b3rOn-9iZKdHdflUjxp4RMyDxK4hcPDtJS7G-BUh-MX9gQBXchxa2KgOXEyHD42gmnvwd0zFe1mcYv_EzlGW8&id_sort=2323&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2323-0525&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2323-0525
+IP：106.131.191.83
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 9; HWV32 Build/HUAWEI-HWV32; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (28/9; 408dpi; 1080x2060; HUAWEI; HWV32; HWANE; hi6250; ja_JP; 479968467)
+内存：7.254MB
+耗时：0.151S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:38
+链接：https://m.velives.com/design-sale.html?fbclid=IwAR33T1ISBW_K3MWtVix4AfQBk_BBrm9-7LgsEugyh_vHkWmWSwY_BcfzwQY_aem_th_AZ67yzqM3Rt_JdPoJJmqZ_aQ93txUY09RsKwBRdaD-vNwUDNsoaMGcO122VGWqZTiCNqdG-wBi-Er5uYdjalJ7IA&id_sort=2517&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0001-1-2517-0601&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0001-2517-0601
+IP：133.32.132.56
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 [FBAN/FBIOS;FBDV/iPhone12,8;FBMD/iPhone;FBSN/iOS;FBSV/16.5;FBSS/2;FBID/phone;FBLC/ja_JP;FBOP/5]
+内存：7.257MB
+耗时：0.11S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:41
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAab79L_O7H1iVw0JypxIJjL20xpj9S66sbvgr5WfXV0r9xGXSLV4NVcwzRY_aem_th_AZ4cKpc87hZEQNmfjXwy0ByNtwB2e6wmdYkOazzMbV5gsDFs6rntJlR5W74h3c2lBpjdpsiSGyL_E5Gs3DpkXNP3&id_sort=3636&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0009-1-3636-0522&utm_source=facebook.com&utm_term=honseo-NKJ--%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-3636-0522
+IP：14.12.100.1
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20C65 Instagram 285.0.0.13.63 (iPhone15,2; iOS 16_2; ja_JP; ja; scale=3.00; 1179x2556; 478871389)
+内存：7.227MB
+耗时：0.153S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:04时间：2023-06-05 16:04:44
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAabRvKIibeMVQoIlhUtiUjYj6onB1ziySL8p6wvy5uK-EYK2VJEIQVPisXg_aem_th_AZ7TTsxdD6HO-4AfJPO78VDQxGSkrQFuxWLN3qnNSijwmBHhS3Rjg2VJDP3DvtnumS0PCbOe9-s27vH-gmTS2yCn&id_sort=2518&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2518-0601&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2518-0601
+IP：116.91.203.43
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-51A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 450dpi; 1080x2187; samsung; SC-51A; SC-51A; qcom; ja_JP; 479968420)
+内存：7.252MB
+耗时：0.115S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:07
+链接：https://m.velives.com/design-sale.html?fbclid=PAAaZ2PmPBRHVrStY0ggTcLwXqDZgZkmPK-eUGQSfQrNaNE6nBYnWbJq5gY7o_aem_th_AZ7S1nak2CyYC3K5I1DkIxa2pwvw3hOEEHIHUvbpIyooEbI7Q_10ffoWF8MNQIYN7aIQXMoU2537zjup3DjSE4rl&id_sort=1031&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-FC-check-0001-1-1031-0525&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0001-1031-0525
+IP：60.78.209.26
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone13,2; iOS 16_5; ja_JP; ja; scale=3.00; 1170x2532; 478871389) NW/3
+内存：7.258MB
+耗时：0.104S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:09
+链接：https://m.velives.com/design-sale.html?fbclid=PAAaZ9qqYFfitcQkGDeGltXSwH9yn_WrKt4zzuNRevzKTP2ihNFHPWk8VGRUE_aem_th_AZ7glGVKxwkirV1xr0Y5J-jYjMceeG1Sq0bfDkVo_zOrcY9IoGZ4icVkSDHjDSr-9JxmfayMosnoVjVdPGDVrFiS&id_sort=2517&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-FC-check-0001-2-2517-0601&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0001-2517-0601
+IP：106.72.166.192
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 267.0.0.8.92 (iPhone12,1; iOS 16_5; ja_JP; ja-JP; scale=2.00; 828x1792; 439751848)
+内存：7.245MB
+耗时：0.104S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:09
+链接：https://m.irotype.com/trendy-sale.html?fbclid=PAAaZ3PQhJEH9E3RaM063Nmy3l2CKvhwDLU_eRSePnAhChPveB_hs4HXxfa-E_aem_th_AZ6YhNnHF9_y8-vbVGHy_Thga6wRCYyGU4zX8ZLsKwdO4ejCk-IsZOEe9TN5rJ-EZz-3LJcp4YwjX-rYCORkSsrP&id_sort=4249&utm_campaign=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-no-CC-check-0008-1-4249-0526&utm_source=facebook.com&utm_term=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-0008-4249-0526
+IP：153.125.18.224
+用户id：2608
+设备UA：Mozilla/5.0 (Linux; Android 12; SO-41A Build/59.2.B.0.426; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 540dpi; 1080x2394; Sony/docomo; SO-41A; SO-41A; qcom; ja_JP; 479968321)
+内存：7.437MB
+耗时：0.138S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:24
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabAkla0IrmXRCD1BM8wXaQGZQEykSSAZ9RP1eb9EjN7CeLhqRaQdnhgISo_aem_th_AZ6yFL2HRO5juX7lbkGGt9W-KTrxtuZ7Nf88pIJ9fwPTTVFJ9M61i_0sR666yYIJvS5wHc_s759MgPjzi5VpBFLD&id_sort=3636&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0009-1-3636-0522&utm_source=facebook.com&utm_term=honseo-NKJ--%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-3636-0522
+IP：118.241.193.177
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone13,2; iOS 16_5; ja_JP; ja; scale=3.00; 1170x2532; 478871389)
+内存：7.25MB
+耗时：0.234S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:24
+链接：https://m.kaspiffy.com/resort-sale.html?fbclid=PAAaZ4sWTKb64loKO-lV9RiqZTFCkKfFAreATbyCSsV2vZ1S9C9lnqpBUJvk4_aem_th_AZ52W-_cND5XAlX32j2_GAZRi1Kxcfew-TOogINzrrzzBoC6t4cg2knLCsPgozX8C43FyHqLun8IJQny5kIBSK12&id_sort=1803&utm_campaign=kaspiffy-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0018-1-1803-0602&utm_source=facebook.com&utm_term=kaspiffy-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0018-1803-0602
+IP：42.125.56.83
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone10,3; iOS 16_5; ja_JP; ja; scale=3.00; 1125x2436; 478871389)
+内存：7.262MB
+耗时：0.155S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:28
+链接：https://m.velives.com/design-sale.html?fbclid=PAAaZ2PmPBRHVrStY0ggTcLwXqDZgZkmPK-eUGQSfQrNaNE6nBYnWbJq5gY7o_aem_th_AZ7S1nak2CyYC3K5I1DkIxa2pwvw3hOEEHIHUvbpIyooEbI7Q_10ffoWF8MNQIYN7aIQXMoU2537zjup3DjSE4rl&id_sort=1031&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-FC-check-0001-1-1031-0525&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0001-1031-0525
+IP：60.78.209.26
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+内存：7.229MB
+耗时：0.106S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:33
+链接：https://m.honseo.com/pretty-sale.html?uniqueId=249ac5cf34bfe0bef79d51539fbbd6d2
+IP：106.180.8.1
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SHG07 Build/S328J; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (30/11; 440dpi; 1080x2320; SHARP/KDDI; SHG07; BOL; qcom; ja_JP; 479968420)
+内存：7.245MB
+耗时：0.156S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:38
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAaZmfvTUYe87xZv1rgqDT2daHejPFOAOiuV_Se1ceLhC7Ux7tJlzYqSe3ak_aem_th_AZ71WQN3uwzQlbt2A3Pbspm246PI4UHDyAo6T19XZzLvLYftiqHuVV4Ze_mYmjjkpRzEO4QE0YNyOdOlY154CyNN&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：49.105.85.126
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SH-51A Build/S3290; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.57 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 640dpi; 1440x2880; SHARP/DOCOMO; SH-51A; SH-51A; qcom; ja_JP; 479968476)
+内存：7.249MB
+耗时：0.131S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:40
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabtWnMKaZvKZhsmmXzKGQpzZacdGqnot9wriCzVYj71ChocEc38G1U0o_k_aem_th_AZ7RaOvDF46ptjV8eB1k-FQrYsTTHRgjyHcbS4sZZ7LRxU_0x5pwW-7gZ7ewStsrr3twiNCF8NExMFS3ahMvgCPz&id_sort=3636&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0009-1-3636-0522&utm_source=facebook.com&utm_term=honseo-NKJ--%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-3636-0522
+IP：106.180.8.1
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SHG07 Build/S328J; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (30/11; 440dpi; 1080x2320; SHARP/KDDI; SHG07; BOL; qcom; ja_JP; 479968420)
+内存：7.244MB
+耗时：0.155S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:51
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabAkla0IrmXRCD1BM8wXaQGZQEykSSAZ9RP1eb9EjN7CeLhqRaQdnhgISo_aem_th_AZ6yFL2HRO5juX7lbkGGt9W-KTrxtuZ7Nf88pIJ9fwPTTVFJ9M61i_0sR666yYIJvS5wHc_s759MgPjzi5VpBFLD&id_sort=3636&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0009-1-3636-0522&utm_source=facebook.com&utm_term=honseo-NKJ--%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-3636-0522
+IP：118.241.193.177
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone13,2; iOS 16_5; ja_JP; ja; scale=3.00; 1170x2532; 478871389)
+内存：7.237MB
+耗时：0.148S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:05时间：2023-06-05 16:05:52
+链接：https://m.irotype.com/trendy-sale.html?fbclid=PAAaZ3PQhJEH9E3RaM063Nmy3l2CKvhwDLU_eRSePnAhChPveB_hs4HXxfa-E_aem_th_AZ6YhNnHF9_y8-vbVGHy_Thga6wRCYyGU4zX8ZLsKwdO4ejCk-IsZOEe9TN5rJ-EZz-3LJcp4YwjX-rYCORkSsrP&id_sort=4249&utm_campaign=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-no-CC-check-0008-1-4249-0526&utm_source=facebook.com&utm_term=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-0008-4249-0526
+IP：153.125.18.224
+用户id：2608
+设备UA：Mozilla/5.0 (Linux; Android 12; SO-41A Build/59.2.B.0.426; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 540dpi; 1080x2394; Sony/docomo; SO-41A; SO-41A; qcom; ja_JP; 479968321)
+内存：7.438MB
+耗时：0.167S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:06时间：2023-06-05 16:06:22
+链接：https://m.velives.com/ethnic-sale.html?uniqueId=eb811059e09cbccc23c4715b801d1c17
+IP：106.72.166.192
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 267.0.0.8.92 (iPhone12,1; iOS 16_5; ja_JP; ja-JP; scale=2.00; 828x1792; 439751848)
+内存：7.237MB
+耗时：0.123S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:06时间：2023-06-05 16:06:46
+链接：https://m.irotype.com/trendy-sale.html?fbclid=PAAaYqHUk7WUEwYf9iN23MWBm8Bn_rC6uGvC91kn40sAqQJRAUt7uKRLa-Ctc_aem_th_AZ52aQGlcHJRxpCpMFj7Svsw3FR0so88p3d7IW2YT_Eeegbe1Aebq5cT156OmAck3S_6not1chp1ozvuCSUYlU-5&id_sort=4249&utm_campaign=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-no-CC-check-0008-1-4249-0526&utm_source=facebook.com&utm_term=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-0008-4249-0526
+IP：60.56.175.117
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 283.0.0.16.103 (iPhone12,3; iOS 16_5; ja_JP; ja-JP; scale=3.00; 1125x2436; 474411477)
+内存：7.229MB
+耗时：0.152S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:06时间：2023-06-05 16:06:49
+链接：https://m.finecosy.com/freely-sale.html?fbclid=PAAaYMxQZbfnxwS-HgMA0hduf8k0Lgr_BPZ97HUesaUMntWmtFfgCIiPKxkRs_aem_th_AZ71T9Ik_h5GyMBuIAjb93BrVhUn5RXZ6SxogTQUMQiMFcjzDT7W3SBXXFCAP1ulKAfkGFTA2c0k35MBOT1sjQtK&id_sort=3460%2C6417%2C5998%2C5996%2C4831%2C3444%2C3430%2C3391%2C7425%2C6418&utm_campaign=finecosy-WXL-MIX-DC1-no-CC-check-0015-1-test-0602&utm_source=facebook.com&utm_term=finecosy-WXL-MIX-DC1-0015-test-0602
+IP：153.131.132.9
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+内存：7.231MB
+耗时：0.183S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:06时间：2023-06-05 16:06:52
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR2-tJ3okXtjy-J5xUm_ufCCJgHLoqLykf3FBYsqCuYnoTYoCmo51xv1qnw&id_sort=6817%2C1785%2C6113%2C929%2C7905%2C3543%2C1557%2C732%2C8345%2C7520&utm_campaign=irotype-YDQ-MIX-DC1-no-CC-check-0008-1-test-0605&utm_source=facebook.com&utm_term=irotype-YDQ-MIX-DC1-0008-test-0605
+IP：31.13.127.27
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：7.161MB
+耗时：0.086S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:06时间：2023-06-05 16:06:55
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR1AmeyjRj_MQ0Os55but4e4urE4Vf7SEVxkN3Xju7dBdjJX70-LFlJK1-s&id_sort=3508&utm_campaign=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-no-CC-check-0008-1-3508-0605&utm_source=facebook.com&utm_term=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-0008-3508-0605
+IP：69.171.251.11
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：7.16MB
+耗时：0.105S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:06时间：2023-06-05 16:06:59
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR3zGLnVg69lemH-bf4VNRot9Gtv_TNrnhtrnpiPLZAlTyjOrcYs-yWO8Og&id_sort=3508
+IP：173.252.127.22
+用户未登录
+设备UA：5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+内存：7.154MB
+耗时：0.163S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:07时间：2023-06-05 16:07:02
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR3DOuhkRbdVaT0IEMHYE1Ao7bc6Ycy7rU8iRVbvPM97ZN0n4yJOEF7cCdk&id_sort=3508&utm_campaign=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-no-CC-check-0008-1-3508-0605&utm_source=facebook.com&utm_term=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-0008-3508-0605
+IP：31.13.127.18
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.16MB
+耗时：0.152S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:07时间：2023-06-05 16:07:17
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR2zmNFo6KwAgNLIOgALwETdO-CxyjcDYE8PfjaVgr3BE94QQXgj4ApiphQ&id_sort=6817%2C1785%2C6113%2C929%2C7905%2C3543%2C1557%2C732%2C8345%2C7520
+IP：31.13.115.7
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：7.156MB
+耗时：0.112S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:07时间：2023-06-05 16:07:33
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAabc1k4w1dLgiqSJR4j1MZ7Eq3IoaFKTCTCYXJhbNNE-sQQol4oT8DUDOAc_aem_th_AZ7cbqYw99nyte3nCwlMuc9kN2lDp2YwFU73IWhD9J86e-YnteARajKuFgUEt2hKnYxS2LWPVBDbRFAkADzKfbB1&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：133.106.32.15
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone12,8; iOS 16_5; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.233MB
+耗时：0.115S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:07时间：2023-06-05 16:07:51
+链接：https://m.orladys.com/party-sale.html?uniqueId=33b32fcd36a5742b3b7ada9df6a48c07
+IP：183.14.135.42
+用户id：2001
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+内存：7.43MB
+耗时：0.121S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:07时间：2023-06-05 16:07:55
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAaZmfvTUYe87xZv1rgqDT2daHejPFOAOiuV_Se1ceLhC7Ux7tJlzYqSe3ak_aem_th_AZ71WQN3uwzQlbt2A3Pbspm246PI4UHDyAo6T19XZzLvLYftiqHuVV4Ze_mYmjjkpRzEO4QE0YNyOdOlY154CyNN&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：49.105.85.126
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SH-51A Build/S3290; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.57 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 640dpi; 1440x2880; SHARP/DOCOMO; SH-51A; SH-51A; qcom; ja_JP; 479968476)
+内存：7.248MB
+耗时：0.16S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:08
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAaatRmh5r6hn9qFXkkc9UvDkg33fTBJ0YnG5exLJ85UnMx9-vfCymIN1SWM_aem_th_AZ5nvE98S8cnSGhZtvTRCkRzqhpEvC41Yxq733ij9fL1BUGN79aCHGU2j9GYiBbI99GFEBLxyMHYSNDjVz1dLpjU&id_sort=7777&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0009-1-7777-0531&utm_source=facebook.com&utm_term=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-7777-0531
+IP：49.106.203.91
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H307 Instagram 285.0.0.13.63 (iPhone9,1; iOS 15_7_3; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.227MB
+耗时：0.171S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:17
+链接：https://m.irotype.com/trendy-sale.html?fbclid=PAAaZQs9qIyQZX4t4J3O331uxE2y4VfQzn7RQz7bj67X74bK6_d9VR2gOd-Qg_aem_th_AZ6CCW5J9xv5CcYq65ortGQMpO6ATCRo9SxVfcgPLSkI8i6h-9JBL6CRI386fh07pQvg45lVooNC2d2chkqwp583&id_sort=4249&utm_campaign=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-int-FC-check-0008-1-4249-0531&utm_source=facebook.com&utm_term=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-0008-4249-0531
+IP：126.193.80.220
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 Instagram 285.0.0.13.63 (iPhone12,1; iOS 16_3_1; ja_JP; ja; scale=2.00; 828x1792; 478871389)
+内存：7.227MB
+耗时：0.201S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:31
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAaZmfvTUYe87xZv1rgqDT2daHejPFOAOiuV_Se1ceLhC7Ux7tJlzYqSe3ak_aem_th_AZ71WQN3uwzQlbt2A3Pbspm246PI4UHDyAo6T19XZzLvLYftiqHuVV4Ze_mYmjjkpRzEO4QE0YNyOdOlY154CyNN&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：49.105.85.126
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SH-51A Build/S3290; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.57 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 640dpi; 1440x2880; SHARP/DOCOMO; SH-51A; SH-51A; qcom; ja_JP; 479968476)
+内存：7.259MB
+耗时：0.104S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:32
+链接：https://m.finecosy.com?fbclid=PAAabDL6GclSQQ05hwUDLVrHhPqv7oIONy9t_nK_xyvnJO8HbEQYi9867gsmA&utm_source=facebook.com
+IP：202.137.189.162
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H332 Instagram 285.0.0.13.63 (iPhone9,1; iOS 15_7_5; ja_JP; ja; scale=2.00; 640x1136; 478871389) NW/3
+内存：7.215MB
+耗时：0.094S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:35
+链接：https://m.lovtfel.com/doresu-sale.html?fbclid=PAAaaVBn5nzynvemaCjHl7W9RpHGvCJU19UpGUGSq9eyAasOcUVefo78r62zU_aem_th_AZ5-QGvy8Of7cK6AiEzz5h0t5O-DkrikriiFdoM0pR4YoXjEeHVkxQ7MXpKycV7J9qb3MZrEEX5KVLdxEJ42Vqsh&id_sort=1343%2C1344%2C1349%2C3491%2C4825%2C1386%2C3762%2C2851%2C2572%2C3418&utm_campaign=lovtfel-WXL-MIX-DC1-int-CC-check-0004-1-test-0522&utm_source=facebook.com&utm_term=lovtfel-WXL-MIX-DC1-0004-test-0522
+IP：60.147.6.183
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone10,1; iOS 16_5; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.231MB
+耗时：0.101S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:40
+链接：https://m.irotype.com/trendy-sale.html?fbclid=PAAaZ_xpFH3HTwywMv3KWoVETcuJgIZnp5KRiHFY0Iiv8_j0WDOsv6QeLelqA_aem_th_AZ4AuPHn4ipdzen3lswwB0j4eWD3tUXnSwrkQDldcWHHzFM3TpWntlnME-LktJ12Huig1S4409wyeY2Rsv2S4nCK&id_sort=4249&utm_campaign=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-no-FC-check-0008-2-4249-0531&utm_source=facebook.com&utm_term=irotype-YDQ-%E9%99%8D%E4%BB%B7%E6%AC%BE-DC1-0008-4249-0531
+IP：106.72.43.225
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SC-51C Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 480dpi; 1080x2115; samsung; SC-51C; SC-51C; qcom; ja_JP; 479968321)
+内存：7.229MB
+耗时：0.174S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:49
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAaZmfvTUYe87xZv1rgqDT2daHejPFOAOiuV_Se1ceLhC7Ux7tJlzYqSe3ak_aem_th_AZ71WQN3uwzQlbt2A3Pbspm246PI4UHDyAo6T19XZzLvLYftiqHuVV4Ze_mYmjjkpRzEO4QE0YNyOdOlY154CyNN&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：49.105.85.126
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SH-51A Build/S3290; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.57 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 640dpi; 1440x2880; SHARP/DOCOMO; SH-51A; SH-51A; qcom; ja_JP; 479968476)
+内存：7.259MB
+耗时：0.119S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:50
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAaatRmh5r6hn9qFXkkc9UvDkg33fTBJ0YnG5exLJ85UnMx9-vfCymIN1SWM_aem_th_AZ5nvE98S8cnSGhZtvTRCkRzqhpEvC41Yxq733ij9fL1BUGN79aCHGU2j9GYiBbI99GFEBLxyMHYSNDjVz1dLpjU&id_sort=7777&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0009-1-7777-0531&utm_source=facebook.com&utm_term=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-7777-0531
+IP：49.106.203.91
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H307 Instagram 285.0.0.13.63 (iPhone9,1; iOS 15_7_3; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.236MB
+耗时：0.144S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:55
+链接：https://m.trubele.com/fancy-sale.html?fbclid=PAAabV3Q7xlMMSC6rACX9NEguMSZVt8kS43huOoFg_AcLETHJ1SVD9MUzAbWQ_aem_th_AZ77rGvAwb3cMqt4kVUDogx3QRABQNMB8D2wlQNUsGTtWeadhcchFKTcxXbe-FQj0stsUaZvsuEoX-jChCKqISJS&id_sort=4936%2C2527%2C2524%2C4867%2C4868%2C4940%2C4938%2C4937%2C3645%2C4872&utm_campaign=trubele-GYT-MIX-DC2-int-CC-check-0014-1-test-0525&utm_source=facebook.com&utm_term=trubele-GYT-MIX-DC2-0014-test-0525
+IP：103.5.140.146
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20B101 Instagram 285.0.0.13.63 (iPhone12,3; iOS 16_1_1; ja_JP; ja; scale=3.00; 1125x2436; 478871389)
+内存：7.237MB
+耗时：0.148S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:55
+链接：https://m.misvouge.com/pretty-sale.html?id_sort=2496%20%2C5680&utm_campaign=misvouge-NKJ-Feed-JPL1-no-S03-check-0027-1-test-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-JPL1-0027-test-0531
+IP：153.173.53.131
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-54A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 480dpi; 1080x2168; samsung; SC-54A; SC-54A; qcom; ja_JP; 479968475)
+内存：7.236MB
+耗时：0.144S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:55
+链接：https://m.velives.com/design-sale.html?fbclid=PAAaY_r1u1_EJQ0jjPwMAArAYcYS_6Ltow-c3IRWZNvnUt95fY63O-K42pLMc_aem_th_AZ6So3atps_8mpTmkR0YCEejS2jb6OCvLP9zrxNHejDxzdRn0xUHGn_k2qsN5m5Kzckn3rskGpgR0Wy9yqk7ttHA&id_sort=2517&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0001-1-2517-0601&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0001-2517-0601
+IP：183.176.53.119
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; OPG02 Build/SKQ1.211113.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 480dpi; 1080x2158; OPPO; OPG02; OP4F39L1; qcom; ja_JP; 479968475)
+内存：7.229MB
+耗时：0.092S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:56
+链接：https://m.misvouge.com/pretty-sale.html?uniqueId=249ac5cf34bfe0bef79d51539fbbd6d2
+IP：49.105.85.126
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SH-51A Build/S3290; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.57 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 640dpi; 1440x2880; SHARP/DOCOMO; SH-51A; SH-51A; qcom; ja_JP; 479968476)
+内存：7.255MB
+耗时：0.14S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:56
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAabRvKIibeMVQoIlhUtiUjYj6onB1ziySL8p6wvy5uK-EYK2VJEIQVPisXg_aem_th_AZ7TTsxdD6HO-4AfJPO78VDQxGSkrQFuxWLN3qnNSijwmBHhS3Rjg2VJDP3DvtnumS0PCbOe9-s27vH-gmTS2yCn&id_sort=2518&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2518-0601&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2518-0601
+IP：116.91.203.43
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-51A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 450dpi; 1080x2187; samsung; SC-51A; SC-51A; qcom; ja_JP; 479968420)
+内存：7.253MB
+耗时：0.159S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:08时间：2023-06-05 16:08:58
+链接：https://m.beletrue.com/floral-sale.html?fbclid=PAAabTyrmr_pl_FyNuB4AtR2fukx97vylaDnDX7vpUgTlu3oD2TQXr0AEGzzI_aem_th_AZ6aseXBYhyTTCH_2XJQWX-jJPYv64YnTk-NBLBhrYWOtxV_SzAG72ar4e1iy90hkO6JPucO-og6_R007z0N8m34&id_sort=6199&utm_campaign=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0016-1-6199-0530&utm_source=facebook.com&utm_term=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0016-6199-0530
+IP：126.254.13.35
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20E252 Instagram 285.0.0.13.63 (iPhone12,3; iOS 16_4_1; ja_JP; ja; scale=3.00; 1125x2436; 478871389)
+内存：7.236MB
+耗时：0.109S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:02
+链接：https://m.lovtfel.com/doresu-sale.html?uniqueId=74e83dd98828766b9e21d28d367edc61
+IP：60.147.6.183
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone10,1; iOS 16_5; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.233MB
+耗时：0.099S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:03
+链接：https://m.orladys.com/design-sale.html?uniqueId=5a898e38329a24ce9d4cdd0003eb853e
+IP：183.14.135.42
+用户id：2001
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+内存：7.43MB
+耗时：0.17S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:04
+链接：https://m.letrrue.com/offical-sale.html?fbclid=PAAaaAeZE5hw2eNOdk6HL9SXwMcDSYMGNXFpVBZhPKj4Go4-ogI8Tv85D3AKQ_aem_th_AZ6_e-C48z1q_3jOiat_9TPdrc8gtzqVqjAi3Gf6cvPkhfedlsU15ReL6Ta8NyE4ogf__Ysq3FGtOu5K5kUtBuhB&id_sort=2737&utm_campaign=letrrue-LP-%E7%89%B9%E4%BB%B7%E6%AC%BE-DC2-no-CC-check-0010-1-2737-0519&utm_source=facebook.com&utm_term=letrrue-LP-%E7%89%B9%E4%BB%B7%E6%AC%BE-DC2-0010-2737-0519
+IP：42.145.166.182
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone11,2; iOS 16_5; ja_JP; ja; scale=3.00; 1125x2436; 478871389)
+内存：7.235MB
+耗时：0.108S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:07
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=IwAR2Cfb-WzJqWN-7RDEQj2kaL_ZLk0-LTVwRXXYehdSjRfZ6KU46Owx0A__4_aem_th_AZ6aB4FueAJG8vxWL22yHDPIRMfVdcghWLJwZlVbPKRRMw4upvI8t3huhO25CbUInkkufQYFkKvG0-9WiukJNVOl&id_sort=2470%20%2C5680&utm_campaign=misvouge-NKJ-Feed-JPL1-no-S03-check-0027-1-test-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-JPL1-0027-test-0531
+IP：1.66.103.208
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SH-02M Build/SC200; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/416.0.0.35.85;]
+内存：7.241MB
+耗时：0.1S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:15
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAaZmfvTUYe87xZv1rgqDT2daHejPFOAOiuV_Se1ceLhC7Ux7tJlzYqSe3ak_aem_th_AZ71WQN3uwzQlbt2A3Pbspm246PI4UHDyAo6T19XZzLvLYftiqHuVV4Ze_mYmjjkpRzEO4QE0YNyOdOlY154CyNN&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：49.105.85.126
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SH-51A Build/S3290; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.57 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 640dpi; 1440x2880; SHARP/DOCOMO; SH-51A; SH-51A; qcom; ja_JP; 479968476)
+内存：7.259MB
+耗时：0.138S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:17
+链接：https://m.beletrue.com/floral-sale.html?fbclid=PAAabTyrmr_pl_FyNuB4AtR2fukx97vylaDnDX7vpUgTlu3oD2TQXr0AEGzzI_aem_th_AZ6aseXBYhyTTCH_2XJQWX-jJPYv64YnTk-NBLBhrYWOtxV_SzAG72ar4e1iy90hkO6JPucO-og6_R007z0N8m34&id_sort=6199&utm_campaign=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0016-1-6199-0530&utm_source=facebook.com&utm_term=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0016-6199-0530
+IP：126.254.13.35
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20E252 Instagram 285.0.0.13.63 (iPhone12,3; iOS 16_4_1; ja_JP; ja; scale=3.00; 1125x2436; 478871389)
+内存：7.241MB
+耗时：0.133S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:18
+链接：https://m.misvouge.com/pretty-sale.html?id_sort=2496%20%2C5680&utm_campaign=misvouge-NKJ-Feed-JPL1-no-S03-check-0027-1-test-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-JPL1-0027-test-0531
+IP：153.173.53.131
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-54A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 480dpi; 1080x2168; samsung; SC-54A; SC-54A; qcom; ja_JP; 479968475)
+内存：7.244MB
+耗时：0.121S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:21
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAabwTH2U0ctVZwaqbjEfrtjOtC2OdnzffB1NtTXrQ1k-TNQz2mCYUj05wcM_aem_th_AZ68Z7ElnW1M5dLu1gMnuSkSNAPhDm0-g3q1bTA5YwUL0VTD5EcVHP2OdzC6xaczkPg5rZCRXk_VGz15_VYEH52-&id_sort=2518&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2518-0601&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2518-0601
+IP：60.121.121.124
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20B101 Instagram 285.0.0.13.63 (iPhone12,1; iOS 16_1_1; ja_JP; ja; scale=2.00; 828x1792; 478871389)
+内存：7.222MB
+耗时：0.218S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:27
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=IwAR2Cfb-WzJqWN-7RDEQj2kaL_ZLk0-LTVwRXXYehdSjRfZ6KU46Owx0A__4_aem_th_AZ6aB4FueAJG8vxWL22yHDPIRMfVdcghWLJwZlVbPKRRMw4upvI8t3huhO25CbUInkkufQYFkKvG0-9WiukJNVOl&id_sort=2470%20%2C5680&utm_campaign=misvouge-NKJ-Feed-JPL1-no-S03-check-0027-1-test-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-JPL1-0027-test-0531
+IP：1.66.103.208
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SH-02M Build/SC200; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/416.0.0.35.85;]
+内存：7.245MB
+耗时：0.149S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:28
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAab5pO00H2S76aWnljPGSBD2yFTzDzO2I79UwQfQB8yq3dFzZKtUapfUPZM_aem_th_AZ6br0nO7xIY-J4wWQP7YAhNp-CeGTA4cvw9rC1vRaeACKoOniW-6ifMUup7WgTk51DDl7knJTYnlCyoHvdP0Q0E&id_sort=2323&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2323-0525&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2323-0525
+IP：49.106.214.239
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SO-01M Build/55.2.D.3.22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.163 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (30/11; 420dpi; 1080x2394; Sony/docomo; SO-01M; SO-01M; qcom; ja_JP; 479968475)
+内存：7.236MB
+耗时：0.121S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:29
+链接：https://m.finecosy.com/freely-sale.html?fbclid=PAAab0FXbKWdT5F8AD5M9g2um4T93S0JFh10kQCXDtqlLf8O921sr_Ekarcu8_aem_th_AZ7caDnSkVylfKHKRDY6rgpj3vAiiU79Hy_Ls-P1r62pNFwd9Egg5DVPtAuLvwRtcNbhNy43z66GhU2rWKUOzcsj&id_sort=3460%2C6417%2C5998%2C5996%2C4831%2C3444%2C3430%2C3391%2C7425%2C6418&utm_campaign=finecosy-WXL-MIX-DC1-int-CC-check-0015-1-test-0602&utm_source=facebook.com&utm_term=finecosy-WXL-MIX-DC1-0015-test-0602
+IP：164.70.151.22
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SH-54B Build/S3022; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 440dpi; 1080x2232; SHARP/DOCOMO; SH-54B; SH-54B; qcom; ja_JP; 479968475)
+内存：7.237MB
+耗时：0.091S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:29
+链接：https://m.orladys.com/mori-sale.html?uniqueId=c6a7be47b0d9002ba2efc65189d8d787
+IP：183.14.135.42
+用户id：2001
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+内存：7.424MB
+耗时：0.177S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:30
+链接：https://m.misvouge.com/pretty-sale.html?id_sort=8573%20%2C5680&utm_campaign=misvouge-NKJ-Feed-JPL1-no-S03-check-0027-1-test-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-JPL1-0027-test-0531
+IP：153.173.53.131
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-54A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 480dpi; 1080x2168; samsung; SC-54A; SC-54A; qcom; ja_JP; 479968475)
+内存：7.244MB
+耗时：0.137S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:31
+链接：https://m.irotype.com?utm_source=facebook.com
+IP：126.245.155.48
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 Instagram 285.0.0.13.63 (iPhone12,8; iOS 16_3_1; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.211MB
+耗时：0.13S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:09时间：2023-06-05 16:09:33
+链接：https://m.welllday.com/mama-sale.html?fbclid=PAAaZaPvc5N8sys2Osd_FUugaJsLdJgWSSL9JslcULguCBwQklz7me06F0_Ps_aem_th_AZ7Nw1H-PBnCqsRx_7uDcWtdxTDIHCDwMWDC5NMNmDpoI7Mi_tBrJ8JdUUxUiL_n5qlJJdmKAGh5TvDg__89qOS4&id_sort=7955&utm_campaign=welllday-GK-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0030-1-7955-0602&utm_source=facebook.com&utm_term=welllday-GK-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0030-7955-0602
+IP：58.70.221.20
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone13,2; iOS 16_5; ja_JP; ja; scale=3.00; 1170x2532; 478871389)
+内存：7.23MB
+耗时：0.117S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))6月5日 15:13异常通知@机器人6月5日 15:13时间：2023-06-05 16:13:07
+链接：https://m.cartbem.com/ethnic-sale.html?fbclid=PAAaaNZc4fmkqGQUUsUjvlxR_nZM20zMifRg9_BI1vg8Qt-MFEqXBgeO9oDxg_aem_th_AZ6oHt422XryAJGqnFw7nI-SC52_-mdL2Cb04yT9PRrbl4VyiDqkxB9AdFswKxSH27UweDNPLcVpiwAHzgsS5Q1d&id_sort=3332%2C6647%2C877%2C718%2C6818%2C928%2C5630%2C7539%2C5697%2C4959&utm_campaign=cartbem-WXL-MIX-DC1-no-CC-check-0022-1-test-0529&utm_source=facebook.com&utm_term=cartbem-WXL-MIX-DC1-0022-test-0529
+IP：218.217.91.98
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SC-51B Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 YJApp-ANDROID jp.co.yahoo.android.yjtop/3.144.0
+内存：7.227MB
+耗时：0.157S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:13时间：2023-06-05 16:13:17
+链接：https://m.letrrue.com/offical-sale.html?fbclid=PAAaZYKjyajlojjC1FZoWvoEP7e5UJvnhFbYmo2RUDTgYieAPB7sS-9QOnY8s_aem_th_AZ5tU0qPlYjLUUFdTHVy-QUbu7wkp6vFxDJDbf2tyV77RXLAGDJW6jV8I6XLtYaOZfghsdLx2sa6-J_-wBSz6n6h&id_sort=2737&utm_campaign=letrrue-LP-%E7%AB%9E%E5%93%81%E6%AC%BE-DC2-no-CC-check-0010-1-2737-0511&utm_source=facebook.com&utm_term=letrrue-LP-%E7%AB%9E%E5%93%81%E6%AC%BE-DC2-0010-2737-0511
+IP：1.75.2.208
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 283.0.0.16.103 (iPhone10,3; iOS 14_6; ja_JP; ja-JP; scale=3.00; 1125x2436; 474411477)
+内存：7.238MB
+耗时：0.169S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:13时间：2023-06-05 16:13:53
+链接：https://m.welllday.com/mama-sale.html?fbclid=PAAaaWSN856T1lRicgHDZDwwkqSSpwv5i14f3nYs4q_RvRorPkI8EA7rbkJvo_aem_th_AZ4jUy61b-YYG8o2LJnYl8PPJ2hzNaJF87qS03HwxXiJcfVJqH6YbB2knCtMyifT5DpPmfFWm9HK3JRjw0lZPA84&id_sort=6457%2C8396%2C8042%2C8017%2C8494%2C8495%2C8961%2C8031%2C8964%2C8967&utm_campaign=welllday-GK-MIX-DC1-int-CC-check-0030-1-test-0602&utm_source=facebook.com&utm_term=welllday-GK-MIX-DC1-0030-test-0602
+IP：101.143.110.50
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19G82 Instagram 285.0.0.13.63 (iPhone14,5; iOS 15_6_1; ja_JP; ja; scale=3.00; 1170x2532; 478871389)
+内存：7.23MB
+耗时：0.156S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:13时间：2023-06-05 16:13:57
+链接：https://m.monnvae.com/elegant-sale.html?uniqueId=a2efaa0b16f66c2e3ecfefb1d34138dd
+IP：160.86.227.68
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 11; SH-RM15 Build/S7073; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 Instagram 283.0.0.20.105 Android (30/11; 408dpi; 1080x2167; SHARP/RAKUTEN; SH-RM15; JeridL; qcom; ja_JP; 475221263)
+内存：7.241MB
+耗时：0.098S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:14时间：2023-06-05 16:14:30
+链接：https://m.honseo.com
+IP：49.106.216.70
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-51B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 Instagram 231.0.0.18.113 Android (33/13; 480dpi; 1080x2176; samsung; SC-51B; SC-51B; qcom; ja_JP; 364619247)
+内存：7.218MB
+耗时：0.202S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:14时间：2023-06-05 16:14:45
+链接：https://m.irotype.com?utm_campaign=Order&utm_medium=mailchimp&utm_source=edm
+IP：223.218.0.77
+用户id：2815
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+内存：7.407MB
+耗时：0.147S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:02
+链接：https://m.monnvae.com/party-sale.html?fbclid=PAAaYq-JRC7CpbB0y6xPspnUfOvlTHp0q2tYJSaW-zWTuWNjpwD_Q77Xj4e6w_aem_th_AZ64145CfrvlXwWPU5liv9OyIp5R9OtylOoF73Xox2JZGGlqvez6zGmPftFFRLuSzWEuJ88zDRw06QiLzE_IXdW9&id_sort=1625&utm_campaign=monnvae-WLP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0024-1-1625-0531&utm_source=facebook.com&utm_term=monnvae-WLP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0024-1625-0531
+IP：124.18.11.45
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone14,5; iOS 16_5; ja_JP; ja; scale=3.00; 1170x2532; 478871389)
+内存：7.229MB
+耗时：0.153S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:02
+链接：https://m.mewgr.com/fashion-sale.html?fbclid=PAAabZtXwUaP6BWkSYM21NW0j36l2nMb6QqwqQ1IR9SfojyMDGUMR_kSceTdI_aem_th_AZ7TkRCIETnTYmGI9aleDqstedU0wsAH8uhWz6azHBxNSzE9KSZlpk1UDZVrNOrLmDMI5M2DdxF1xIIwnlScgUie&id_sort=2323&utm_campaign=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-int-CC-check-0017-2-2323-0525&utm_source=facebook.com&utm_term=mewgr-LP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC-0017-2323-0525
+IP：60.93.115.181
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone14,6; iOS 16_5; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.237MB
+耗时：0.085S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:03
+链接：https://m.beletrue.com/floral-sale.html?fbclid=PAAaa71r-5ktfj6DACaMPpxKU58I-2aGa-TlNC2zxMTb6zi-TDc84iHMmV2NA_aem_th_AZ6VosVfvXgOq-0a6jmNrW7VfrRpdZ8G7DqfmHhuDcLwi8MEY2aVFXFf3sMspzY8c650IwCmvDxS2Bvakh89tyut&id_sort=3061%2C6199%2C1965%2C2928%2C5913%2C1861%2C1966%2C6222%2C1971%2C3116&utm_campaign=beletrue-YDQ-MIX-DC1-no-CC-check-0016-1-test-0525&utm_source=facebook.com&utm_term=beletrue-YDQ-MIX-DC1-0016-test-0525
+IP：49.98.163.105
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 281.0.0.16.104 (iPhone12,8; iOS 15_6_1; ja_JP; ja-JP; scale=2.00; 750x1334; 470305378)
+内存：7.23MB
+耗时：0.16S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:16
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR0IEVzF8XK_6p9ClYpHdN5tw5AxXR61a51YT5Gb6ec0JbVlC3RLjX7usTg&id_sort=7905
+IP：31.13.127.11
+用户未登录
+设备UA：Mozilla / 5.0(X11;Linux i686; rv:81.0) Gecko / 20100101 Firefox / 81.0
+内存：7.155MB
+耗时：0.084S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:27
+链接：https://m.honseo.com
+IP：49.106.216.70
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-51B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 Instagram 231.0.0.18.113 Android (33/13; 480dpi; 1080x2176; samsung; SC-51B; SC-51B; qcom; ja_JP; 364619247)
+内存：7.223MB
+耗时：0.144S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:32
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR3MrQpyopUhMZ2zkj8Sr_p73h942Ublb4fRboNu4LUosISZKYiHaCay5Zk&id_sort=7905
+IP：173.252.95.14
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36
+内存：7.154MB
+耗时：0.124S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:33
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR1zEhafHNfJ78PqzhdJabbblJwyLERnxz_GRSIipssSBuQ-VJfiTd-P_P0&id_sort=7905&utm_campaign=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-int-CC-check-0008-1-7905-0605&utm_source=facebook.com&utm_term=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-0008-7905-0605
+IP：173.252.95.24
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
+内存：7.16MB
+耗时：0.119S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:35
+链接：https://irotype.com/trendy-sale.html?fbclid=IwAR3wfgfQ_XK7TgiGQ9uDDXY5WqkC30CFUIT29h67TAut9w1ZrRMeUe48knA&id_sort=7905&utm_campaign=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-int-CC-check-0008-1-7905-0605&utm_source=facebook.com&utm_term=irotype-YDQ-%25E5%25B8%25B8%25E8%25A7%2584%25E6%25AC%25BE-DC1-0008-7905-0605
+IP：173.252.95.12
+用户未登录
+设备UA：Mozilla / 5.0(X11;Ubuntu;Linuxx86_64;rv:81.0) Gecko / 20100101Firefox / 81.0
+内存：7.161MB
+耗时：0.166S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:39
+链接：https://m.mewgr.com?utm_campaign=Order&utm_medium=mailchimp&utm_source=edm
+IP：202.147.216.236
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+内存：7.206MB
+耗时：0.131S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:15时间：2023-06-05 16:15:39
+链接：https://m.honseo.com/pretty-sale.html?uniqueId=249ac5cf34bfe0bef79d51539fbbd6d2
+IP：49.106.216.70
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-51B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 Instagram 231.0.0.18.113 Android (33/13; 480dpi; 1080x2176; samsung; SC-51B; SC-51B; qcom; ja_JP; 364619247)
+内存：7.244MB
+耗时：0.104S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:16时间：2023-06-05 16:16:16
+链接：https://m.honseo.com
+IP：49.106.216.70
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-51B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 Instagram 231.0.0.18.113 Android (33/13; 480dpi; 1080x2176; samsung; SC-51B; SC-51B; qcom; ja_JP; 364619247)
+内存：7.222MB
+耗时：0.089S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:16时间：2023-06-05 16:16:17
+链接：https://m.monnvae.com/party-sale.html?fbclid=PAAabJ0X23sk1Zihvs8oRpVT1E8sKo69QwgLufoEKCpodIgwgRr5nShVvEy7k_aem_th_AZ6HLbZGdjwcOI01YqMf4n3ZX6KaGU0se3Um8NyC6qCLWC-HYuTlB4Qd4VK5ll71LyjtdEzm2ZA8D7_pzbBXwYh1&id_sort=1639&utm_campaign=monnvae-WLP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0024-1-1639-0601&utm_source=facebook.com&utm_term=monnvae-WLP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0024-1639-0601
+IP：118.8.232.13
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 Instagram 285.0.0.13.63 (iPhone12,8; iOS 16_3_1; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.235MB
+耗时：0.11S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:16时间：2023-06-05 16:16:27
+链接：https://welllday.com/mama-sale.html?id_sort=6457%2C8396%2C8042%2C8017%2C8494%2C8495%2C8961%2C8031%2C8964%2C8967&utm_campaign=welllday-GK-MIX-DC1-no-CC-check-0030-1-test-0602&utm_source=facebook.com&utm_term=welllday-GK-MIX-DC1-0030-test-0602
+IP：110.50.81.202
+用户未登录
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+内存：7.158MB
+耗时：0.138S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:16时间：2023-06-05 16:16:30
+链接：https://m.monnvae.com
+IP：118.8.232.13
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 Instagram 285.0.0.13.63 (iPhone12,8; iOS 16_3_1; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.218MB
+耗时：0.133S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:16时间：2023-06-05 16:16:40
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabtxapFX4D7t_bdFhW0662H-zy7z3WYLF8leB580WdnP9jypDSiuqBdtL0_aem_th_AZ55njsM6VkEt1rDHuNJZ8FbDSnfQZ9aDhjTAUxVfU5LOTNj8AD2PcK6QGzQk2snlcG-Rd9O8SjPL2FcFpFQWEAr&id_sort=7777&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0009-1-7777-0531&utm_source=facebook.com&utm_term=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-7777-0531
+IP：49.97.36.218
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SH-53A Build/S1164; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 440dpi; 1080x2076; SHARP/DOCOMO; SH-53A; SH-53A; qcom; ja_JP; 479968475)
+内存：7.23MB
+耗时：0.149S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:17时间：2023-06-05 16:17:03
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabtxapFX4D7t_bdFhW0662H-zy7z3WYLF8leB580WdnP9jypDSiuqBdtL0_aem_th_AZ55njsM6VkEt1rDHuNJZ8FbDSnfQZ9aDhjTAUxVfU5LOTNj8AD2PcK6QGzQk2snlcG-Rd9O8SjPL2FcFpFQWEAr&id_sort=7777&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0009-1-7777-0531&utm_source=facebook.com&utm_term=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-7777-0531
+IP：49.97.36.218
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SH-53A Build/S1164; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 440dpi; 1080x2076; SHARP/DOCOMO; SH-53A; SH-53A; qcom; ja_JP; 479968475)
+内存：7.238MB
+耗时：0.127S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:17时间：2023-06-05 16:17:05
+链接：https://m.letrrue.com/offical-sale.html?fbclid=PAAaZqKo83f-QZrkKjX5atkst4Fx5ayta3ds39IqlWB50kkkM5Jvbc9eHo6cA_aem_th_AZ52mykzvW3IcEFv5uXs_xzAbi3nOXKAQcPwWT3dujByXtuxOJ1HSTsyjlLY96Gi5LwkMdS46T1cVUzw6qEnSooY&id_sort=2737&utm_campaign=letrrue-LP-%E7%89%B9%E4%BB%B7%E6%AC%BE-DC1-int-CC-check-0010-1-2737-0519&utm_source=facebook.com&utm_term=letrrue-LP-%E7%89%B9%E4%BB%B7%E6%AC%BE-DC1-0010-2737-0519
+IP：59.138.72.89
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SCV48 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 420dpi; 1080x2184; samsung; SCV48; SCV48; mt6768; ja_JP; 479968475)
+内存：7.23MB
+耗时：0.123S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:17时间：2023-06-05 16:17:51
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAabtxapFX4D7t_bdFhW0662H-zy7z3WYLF8leB580WdnP9jypDSiuqBdtL0_aem_th_AZ55njsM6VkEt1rDHuNJZ8FbDSnfQZ9aDhjTAUxVfU5LOTNj8AD2PcK6QGzQk2snlcG-Rd9O8SjPL2FcFpFQWEAr&id_sort=7777&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-CC-check-0009-1-7777-0531&utm_source=facebook.com&utm_term=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-7777-0531
+IP：49.97.36.218
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SH-53A Build/S1164; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 440dpi; 1080x2076; SHARP/DOCOMO; SH-53A; SH-53A; qcom; ja_JP; 479968475)
+内存：7.237MB
+耗时：0.165S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:17时间：2023-06-05 16:17:54
+链接：https://m.erestyle.com/vacation-sale.html?fbclid=PAAabkouHeG5VzynweQX2U0_tq-aIU2PAxrXZvFKoX8jFHxJ1uVWDqXrsbIZY_aem_th_AZ4db_ag01uQwx7dwwY8S-XA_kyACAVKrtBliPEA7aTQ9vIcj7kOHcClKGY7SH1aTAGfTlCqrCD-Q_k8cfFDqjGE&id_sort=4150&utm_campaign=erestyle-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0026-1-4150-0602&utm_source=facebook.com&utm_term=erestyle-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0026-4150-0602
+IP：59.84.197.232
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-52C Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 420dpi; 1080x2115; samsung; SC-52C; SC-52C; qcom; ja_JP; 479968304)
+内存：7.242MB
+耗时：0.126S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:00
+链接：https://m.beletrue.com/floral-sale.html?fbclid=PAAaY3Dl5eoIIsfwvYg1M9RY1U8Zuyk4F-SNVUo65qAd5o--x30G3zee9fwWk_aem_th_AZ7QAGk0ry0bpDjma5ZewLBqaS8wdnOabAC1Jp9Vh94X2693YghcSZdNZtZQMmoDpg1WXkcWMvrPIK87ghUJk99a&id_sort=5767&utm_campaign=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0016-1-5767-0530&utm_source=facebook.com&utm_term=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0016-5767-0530
+IP：1.112.125.136
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 Instagram 285.0.0.13.63 (iPhone13,1; iOS 16_3_1; ja_JP; ja; scale=3.00; 1125x2436; 478871389)
+内存：7.229MB
+耗时：0.118S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:01
+链接：https://m.velives.com/design-sale.html?fbclid=PAAabj7XjVcUo4AbmA68R7xj15l3aRSmT6z6_9RYrSF4rkYE12JHUtChskKV8_aem_th_AZ7Ez15f1Kh6o0VNIRDRNtd3RLWoNjQok01rNFhvwR5Q-Do5goOfE8J1FEpDceKRXXIzBb7HCVOICBGQHdfoMgDs&id_sort=1031&utm_campaign=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-int-FC-check-0001-1-1031-0525&utm_source=facebook.com&utm_term=velives-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0001-1031-0525
+IP：182.166.156.237
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 283.0.0.16.103 (iPhone12,8; iOS 16_3_1; ja_JP; ja-JP; scale=2.00; 750x1334; 474411477)
+内存：7.227MB
+耗时：0.097S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:09
+链接：https://m.beletrue.com/floral-sale.html?fbclid=PAAaaJ2n_tYqci2wM-_jcBYkROpwYz4a6V25JO0qQ2kEM98wngXGDd7R918LU_aem_th_AZ6vtvUU7XYLJoLSeoQyZRwHzpNdQv9glOaIhSjaKite8YKbud-I52WxcTub0UGO3uRQeR9z8Ng_1SfT2o8A_vId&id_sort=6199&utm_campaign=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0016-1-6199-0530&utm_source=facebook.com&utm_term=beletrue-YDQ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0016-6199-0530
+IP：153.252.192.134
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; SC-03L Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.36 Instagram 283.0.0.20.105 Android (31/12; 420dpi; 1080x2042; samsung; SC-03L; SC-03L; qcom; ja_JP; 475221263)
+内存：7.229MB
+耗时：0.17S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:14
+链接：https://m.honseo.com/leuire-sale.html?fbclid=PAAaZJs7PkvvfckLAOAJgQ-NjDFaDNt8dv0xyryOQLeazVyDC7aUa0hOH9WDc_aem_th_AZ77V4TzaHSkyEiPIOEOuTDCBCaY7_VZjRNKfAP85sZEFpoENnP6So0VlPcOv3RhUqcBfuPgJrNiopsPjPeJGqv6&id_sort=3636&utm_campaign=honseo-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-FC-check-0009-1-3636-0522&utm_source=facebook.com&utm_term=honseo-NKJ--%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0009-3636-0522
+IP：126.193.160.55
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 12; A103OP Build/RKQ1.211103.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (31/12; 480dpi; 1080x2158; OPPO; A103OP; OP4F2BL1; qcom; ja_JP; 479968475)
+内存：7.229MB
+耗时：0.088S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:15
+链接：https://m.erestyle.com/vacation-sale.html?fbclid=PAAabkouHeG5VzynweQX2U0_tq-aIU2PAxrXZvFKoX8jFHxJ1uVWDqXrsbIZY_aem_th_AZ4db_ag01uQwx7dwwY8S-XA_kyACAVKrtBliPEA7aTQ9vIcj7kOHcClKGY7SH1aTAGfTlCqrCD-Q_k8cfFDqjGE&id_sort=4150&utm_campaign=erestyle-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0026-1-4150-0602&utm_source=facebook.com&utm_term=erestyle-GYT-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0026-4150-0602
+IP：59.84.197.232
+用户未登录
+设备UA：Mozilla/5.0 (Linux; Android 13; SC-52C Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile Safari/537.36 Instagram 285.0.0.25.62 Android (33/13; 420dpi; 1080x2115; samsung; SC-52C; SC-52C; qcom; ja_JP; 479968304)
+内存：7.241MB
+耗时：0.151S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:16
+链接：https://m.monnvae.com/party-sale.html?fbclid=IwAR2RFjrS07S_GuRSgclvfITl1BvsLiilsruaqzbCgVspCeR48TaFSvuQN-4_aem_th_AZ5CUh7o4-ZVZb2_Q9EfxLgy93ds62dQhpUCwhxcM6p_stdre3ATOXH6FwKl9XhAgxOyB91B667PHzD2N74hmRvO&id_sort=1625&utm_campaign=monnvae-WLP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0024-1-1625-0531&utm_source=facebook.com&utm_term=monnvae-WLP-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0024-1625-0531
+IP：106.136.228.198
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 [FBAN/FBIOS;FBDV/iPhone13,1;FBMD/iPhone;FBSN/iOS;FBSV/16.3.1;FBSS/3;FBID/phone;FBLC/ja_JP;FBOP/5]
+内存：7.228MB
+耗时：0.141S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:19
+链接：https://m.kaspiffy.com/resort-sale.html?fbclid=PAAab6-bPUK8ZwyUnQ3BKP-sD-fwFI-5nJB4MEKFUmdwC4BQWtS5rd0ssH5UU_aem_th_AZ4MwNWQ6vzv_CDfAJ0Bcq8GyORLcpoYarI43U1LLhocqCs3_RBImXxRE93fl950HOFm1JD9J5bYTg-SIVdIcq7W&id_sort=2731%2C1865%2C1864%2C1795%2C2607%2C1797%2C1803%2C1808%2C1811%2C2565&utm_campaign=kaspiffy-NKJ-MIX-DC1-no-CC-check-0018-2-test-0522&utm_source=facebook.com&utm_term=kaspiffy-NKJ-MIX-DC1-0018-test-0522
+IP：124.100.10.19
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone12,5; iOS 16_5; ja_JP; ja; scale=3.00; 1242x2688; 478871389)
+内存：7.231MB
+耗时：0.147S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:21
+链接：https://m.misvouge.com/pretty-sale.html?fbclid=PAAaY2N6PTAh9kl2q-Pae_AjJmGev0kndzJnCpj3WIYAen0Ns_lkmNCjo3gl4_aem_th_AZ64UBdvM72bx-cNDuwH4PHkFNu4cpvMiZ6PJRPymTIAYWv3Jv36cOBV4AeVg0N5lbn_D_xtPwDE2rn6vW4mQMjr&id_sort=4629&utm_campaign=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-no-CC-check-0027-1-4629-0531&utm_source=facebook.com&utm_term=misvouge-NKJ-%E5%B8%B8%E8%A7%84%E6%AC%BE-DC1-0027-4629-0531
+IP：60.137.115.47
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F66 Instagram 285.0.0.13.63 (iPhone12,8; iOS 16_5; ja_JP; ja; scale=2.00; 750x1334; 478871389)
+内存：7.234MB
+耗时：0.089S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:24
+链接：https://m.velives.com
+IP：182.166.156.237
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 283.0.0.16.103 (iPhone12,8; iOS 16_3_1; ja_JP; ja-JP; scale=2.00; 750x1334; 474411477)
+内存：7.215MB
+耗时：0.173S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))异常通知@机器人6月5日 15:18时间：2023-06-05 16:18:31
+链接：https://m.mewgr.com
+IP：60.102.189.132
+用户id：2044
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+内存：7.39MB
+耗时：0.107S
+错误信息：
+Undefined variable: ids
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php 345
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(345): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/wwwroot/p...', 345, Array)
+#1 /home/wwwroot/bootstrap/src/Illuminate/Cache/Repository.php(339): Jason\Ccshop\Services\ProductSectionService::Jason\Ccshop\Services\{closure}()
+#2 /home/wwwroot/plugins/jason/ccshop/services/ProductSectionService.php(348): Illuminate\Cache\Repository->remember('get-section-gro...', 1440, Object(Closure))6月5日 16:06异常通知@机器人6月5日 16:06时间：2023-06-05 17:06:02
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/10183
+IP：125.76.162.139
+管理员邮箱：yuanxiaoye@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：9.044MB
+耗时：0.852S
+错误信息：
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10183-Jason\Ccshop\Models\Product-reviews_total' for key 'cc_custom_fileds_bind_id_bind_type_name_unique' (SQL: insert into `cc_custom_fields` (`bind_id`, `bind_type`, `name`, `value`) values (10183, Jason\Ccshop\Models\Product, reviews_total, ))
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('insert into `cc...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(391): Illuminate\Database\Connection->run('insert into `cc...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(347): Illuminate\Database\Connection->statement('insert into `cc...', Array)6月6日 08:27异常通知@机器人6月6日 08:27时间：2023-06-06 09:27:52
+链接：https://www.kimibest.com/set-tshirt-pants-p-22177.html
+IP：66.249.64.139
+用户未登录
+设备UA：Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/113.0.5672.126 Safari/537.36
+内存：6.779MB
+耗时：0.128S
+错误信息：
+Call to a member function toArray() on boolean
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/components/Catalog.php 2172
+堆栈信息：
+#0 /home/wwwroot/modules/cms/classes/ComponentBase.php(163): Jason\Ccshop\Components\Catalog->onGetreview()
+#1 /home/wwwroot/modules/cms/classes/Controller.php(721): Cms\Classes\ComponentBase->runAjaxHandler('onGetreview')
+#2 /home/wwwroot/modules/cms/classes/Controller.php(621): Cms\Classes\Controller->runAjaxHandler('onGetreview')6月6日 10:06异常通知@机器人6月6日 10:06时间：2023-06-06 11:06:40
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/jason/ccshop/adreportscenter/expansion_attribution?order_id=
+IP：117.22.144.6
+管理员邮箱：leijian@neverdown.cc
+设备UA：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+内存：6.341MB
+耗时：0.139S
+错误信息：
+array_values() expects parameter 1 to be array, string given
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/adreportscenter/_expansion_attribution.htm 50
+堆栈信息：
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'array_values() ...', '/home/wwwroot/p...', 50, Array)
+#1 /home/wwwroot/plugins/jason/ccshop/controllers/adreportscenter/_expansion_attribution.htm(50): array_values('\xE8\xAE\xA2\xE5\x8D\x95id\xE4\xB8\xBA\xE7\xA9\xBA')
+#2 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include('/home/wwwroot/p...')异常通知@机器人6月6日 10:06时间：2023-06-06 11:06:42
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/jason/ccshop/adreportscenter/expansion_attribution?order_id=
+IP：117.22.144.6
+管理员邮箱：leijian@neverdown.cc
+设备UA：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+内存：6.336MB
+耗时：0.115S
+错误信息：
+array_values() expects parameter 1 to be array, string given
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/adreportscenter/_expansion_attribution.htm 50
+堆栈信息：
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'array_values() ...', '/home/wwwroot/p...', 50, Array)
+#1 /home/wwwroot/plugins/jason/ccshop/controllers/adreportscenter/_expansion_attribution.htm(50): array_values('\xE8\xAE\xA2\xE5\x8D\x95id\xE4\xB8\xBA\xE7\xA9\xBA')
+#2 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include('/home/wwwroot/p...')6月6日 10:40异常通知@机器人6月6日 10:40时间：2023-06-06 11:40:54
+链接：https://m.orladys.com/checkout/ccpay/payment-return.html?orderAmount=951.00&orderNo=68473862599916&orderStatus=SUCCESS
+IP：183.14.135.42
+用户未登录
+设备UA：Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+内存：10.202MB
+耗时：0.249S
+错误信息：
+Trying to get property of non-object
+错误文件：
+/home/wwwroot/storage/cms/cache/67/b7/ccpay-payment-return.htm.php 15
+堆栈信息：
+#0 /home/wwwroot/storage/cms/cache/67/b7/ccpay-payment-return.htm.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/wwwroot/s...', 15, Array)
+#1 /home/wwwroot/modules/cms/classes/Controller.php(427): Cms67b7a8cca6fb1018dffa4181bb3a5e61Class->onStart()
+#2 /home/wwwroot/modules/cms/classes/Controller.php(349): Cms\Classes\Controller->execPageCycle()6月7日 13:36异常通知@机器人6月7日 13:36时间：2023-06-07 14:36:25
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/196247
+IP：125.80.203.126
+管理员邮箱：dingmengyou@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.485MB
+耗时：0.241S
+错误信息：
+Class 'Jason\Ccshop\Services\productService' not found
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/products/_private_options.htm 98
+堆栈信息：
+#0 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include()
+#1 /home/wwwroot/modules/system/traits/ViewMaker.php(98): Backend\Classes\Controller->makeFileContents('/home/wwwroot/p...', Array)
+#2 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(834): Backend\Classes\Controller->makePartial('_private_option...', Array)异常通知@机器人6月7日 13:36时间：2023-06-07 14:36:36
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/196247
+IP：125.80.203.126
+管理员邮箱：dingmengyou@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.453MB
+耗时：0.28S
+错误信息：
+Class 'Jason\Ccshop\Services\productService' not found
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/products/_private_options.htm 98
+堆栈信息：
+#0 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include()
+#1 /home/wwwroot/modules/system/traits/ViewMaker.php(98): Backend\Classes\Controller->makeFileContents('/home/wwwroot/p...', Array)
+#2 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(834): Backend\Classes\Controller->makePartial('_private_option...', Array)异常通知@机器人6月7日 13:36时间：2023-06-07 14:36:56
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/196247
+IP：125.80.203.126
+管理员邮箱：dingmengyou@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.461MB
+耗时：0.245S
+错误信息：
+Class 'Jason\Ccshop\Services\productService' not found
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/products/_private_options.htm 98
+堆栈信息：
+#0 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include()
+#1 /home/wwwroot/modules/system/traits/ViewMaker.php(98): Backend\Classes\Controller->makeFileContents('/home/wwwroot/p...', Array)
+#2 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(834): Backend\Classes\Controller->makePartial('_private_option...', Array)异常通知@机器人6月7日 13:37时间：2023-06-07 14:37:19
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/196247
+IP：125.80.203.126
+管理员邮箱：dingmengyou@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.509MB
+耗时：0.235S
+错误信息：
+Class 'Jason\Ccshop\Services\productService' not found
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/products/_private_options.htm 98
+堆栈信息：
+#0 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include()
+#1 /home/wwwroot/modules/system/traits/ViewMaker.php(98): Backend\Classes\Controller->makeFileContents('/home/wwwroot/p...', Array)
+#2 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(834): Backend\Classes\Controller->makePartial('_private_option...', Array)异常通知@机器人6月7日 13:38时间：2023-06-07 14:38:02
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/196247
+IP：125.80.203.126
+管理员邮箱：dingmengyou@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：7.477MB
+耗时：0.234S
+错误信息：
+Class 'Jason\Ccshop\Services\productService' not found
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/products/_private_options.htm 98
+堆栈信息：
+#0 /home/wwwroot/modules/system/traits/ViewMaker.php(244): include()
+#1 /home/wwwroot/modules/system/traits/ViewMaker.php(98): Backend\Classes\Controller->makeFileContents('/home/wwwroot/p...', Array)
+#2 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(834): Backend\Classes\Controller->makePartial('_private_option...', Array)6月9日 13:58异常通知@机器人6月9日 13:58时间：2023-06-09 14:58:41
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/paymentmethods/update/23
+IP：163.123.192.54
+管理员邮箱：shiqingzhai@jing-pai.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：9.004MB
+耗时：0.349S
+错误信息：
+Undefined index: scheme
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/PaymentMethods.php 287
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/PaymentMethods.php(287): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 287, Array)
+#1 /home/wwwroot/plugins/jason/ccshop/controllers/PaymentMethods.php(264): Jason\Ccshop\Controllers\PaymentMethods::getValidationUrl(Array)
+#2 /home/wwwroot/modules/backend/behaviors/FormController.php(312): Jason\Ccshop\Controllers\PaymentMethods->formBeforeSave(Object(Jason\Ccshop\Models\PaymentMethod))6月9日 14:40异常通知@机器人6月9日 14:40时间：2023-06-09 15:40:13
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/193809
+IP：113.248.182.209
+管理员邮箱：liaowanting@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：133.114MB
+耗时：0.488S
+错误信息：
+部件 'relationReviewsManageFormImages' 没绑到控制器
+错误文件：
+/home/wwwroot/modules/backend/classes/Controller.php 531
+堆栈信息：
+#0 /home/wwwroot/modules/backend/classes/Controller.php(437): Backend\Classes\Controller->runAjaxHandler('relationReviews...')
+#1 /home/wwwroot/modules/backend/classes/Controller.php(247): Backend\Classes\Controller->execAjaxHandlers()
+#2 /home/wwwroot/modules/backend/classes/BackendController.php(124): Backend\Classes\Controller->run('update', Array)异常通知@机器人6月9日 14:45时间：2023-06-09 15:45:40
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/187689
+IP：113.248.182.209
+管理员邮箱：liaowanting@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：133.121MB
+耗时：0.554S
+错误信息：
+部件 'relationReviewsManageFormImages' 没绑到控制器
+错误文件：
+/home/wwwroot/modules/backend/classes/Controller.php 531
+堆栈信息：
+#0 /home/wwwroot/modules/backend/classes/Controller.php(437): Backend\Classes\Controller->runAjaxHandler('relationReviews...')
+#1 /home/wwwroot/modules/backend/classes/Controller.php(247): Backend\Classes\Controller->execAjaxHandlers()
+#2 /home/wwwroot/modules/backend/classes/BackendController.php(124): Backend\Classes\Controller->run('update', Array)异常通知@机器人6月9日 14:45时间：2023-06-09 15:45:43
+链接：https://www.kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/187689
+IP：113.248.182.209
+管理员邮箱：liaowanting@yitianzhi.cn
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：133.12MB
+耗时：0.502S
+错误信息：
+部件 'relationReviewsManageFormImages' 没绑到控制器
+错误文件：
+/home/wwwroot/modules/backend/classes/Controller.php 531
+堆栈信息：
+#0 /home/wwwroot/modules/backend/classes/Controller.php(437): Backend\Classes\Controller->runAjaxHandler('relationReviews...')
+#1 /home/wwwroot/modules/backend/classes/Controller.php(247): Backend\Classes\Controller->execAjaxHandlers()
+#2 /home/wwwroot/modules/backend/classes/BackendController.php(124): Backend\Classes\Controller->run('update', Array)6月9日 15:09异常通知@机器人6月9日 15:09时间：2023-06-09 16:09:30
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/11634
+IP：117.22.144.252
+管理员邮箱：liqianru@yitianzhi.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：9.152MB
+耗时：1.089S
+错误信息：
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11634-Jason\Ccshop\Models\Product-reviews_total' for key 'cc_custom_fileds_bind_id_bind_type_name_unique' (SQL: insert into `cc_custom_fields` (`bind_id`, `bind_type`, `name`, `value`) values (11634, Jason\Ccshop\Models\Product, reviews_total, ))
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('insert into `cc...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(391): Illuminate\Database\Connection->run('insert into `cc...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(347): Illuminate\Database\Connection->statement('insert into `cc...', Array)6月9日 18:17异常通知@机器人6月9日 18:17时间：2023-06-09 19:17:33
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/groupPurchase/update/163
+IP：156.251.190.137
+管理员邮箱：wanghanyue@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.579MB
+耗时：0.18S
+错误信息：
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '1634，3273' in 'where clause' (SQL: select * from `cc_collocation_items` where FIND_IN_SET(1634，3273, productids) limit 1)
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select * from `...', Array, true)6月9日 19:11异常通知@机器人6月9日 19:11时间：2023-06-09 20:11:19
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/groupPurchase/update/177
+IP：117.22.144.252
+管理员邮箱：lixiaojie@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.548MB
+耗时：0.139S
+错误信息：
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7366，7297，2255' in 'where clause' (SQL: select * from `cc_collocation_items` where FIND_IN_SET(7366，7297，2255, productids) limit 1)
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select * from `...', Array, true)异常通知@机器人6月9日 19:23时间：2023-06-09 20:23:09
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/groupPurchase/update/191
+IP：117.22.144.252
+管理员邮箱：wuliping@yitianzhi.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.534MB
+耗时：0.215S
+错误信息：
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '1392，11789' in 'where clause' (SQL: select * from `cc_collocation_items` where FIND_IN_SET(1392，11789, productids) limit 1)
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select * from `...', Array, true)异常通知@机器人6月9日 19:27时间：2023-06-09 20:27:07
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/groupPurchase/update/194
+IP：125.76.177.82
+管理员邮箱：denghuan@yitianzhi.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.544MB
+耗时：0.174S
+错误信息：
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '¥1' in 'where clause' (SQL: select * from `cc_collocation_items` where FIND_IN_SET(¥1, productids) limit 1)
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select * from `...', Array, true)异常通知@机器人6月9日 19:36时间：2023-06-09 20:36:56
+链接：https://orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/groupPurchase/update/204
+IP：175.182.111.39
+管理员邮箱：chenxinmiao@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.575MB
+耗时：0.141S
+错误信息：
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '11079，9522' in 'where clause' (SQL: select * from `cc_collocation_items` where FIND_IN_SET(11079，9522, productids) limit 1)
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select * from `...', Array, true)6月12日 11:27异常通知@机器人6月12日 11:27时间：2023-06-12 12:27:32
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/rainlab/user/users
+IP：156.251.190.141
+管理员邮箱：liqiong@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：133.933MB
+耗时：0.325S
+错误信息：
+Class 'Jason\Ccshop\Models\OrdersAdTrack' not found
+错误文件：
+/home/wwwroot/vendor/october/rain/src/Database/Model.php 855
+堆栈信息：
+#0 /home/wwwroot/vendor/october/rain/src/Database/Model.php(683): October\Rain\Database\Model->belongsTo('Jason\\Ccshop\\Mo...', 'ad_tracks_id', NULL, 'orders_ad_track')
+#1 /home/wwwroot/vendor/october/rain/src/Database/Model.php(513): October\Rain\Database\Model->handleRelation('orders_ad_track')
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(545): October\Rain\Database\Model->__call('orders_ad_track', Array)异常通知@机器人6月12日 11:27时间：2023-06-12 12:27:41
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/rainlab/user/users
+IP：156.251.190.141
+管理员邮箱：liqiong@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：133.948MB
+耗时：0.3S
+错误信息：
+Class 'Jason\Ccshop\Models\OrdersAdTrack' not found
+错误文件：
+/home/wwwroot/vendor/october/rain/src/Database/Model.php 855
+堆栈信息：
+#0 /home/wwwroot/vendor/october/rain/src/Database/Model.php(683): October\Rain\Database\Model->belongsTo('Jason\\Ccshop\\Mo...', 'ad_tracks_id', NULL, 'orders_ad_track')
+#1 /home/wwwroot/vendor/october/rain/src/Database/Model.php(513): October\Rain\Database\Model->handleRelation('orders_ad_track')
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(545): October\Rain\Database\Model->__call('orders_ad_track', Array)6月12日 11:30异常通知@机器人6月12日 11:30时间：2023-06-12 12:30:26
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/rainlab/user/users
+IP：156.251.190.141
+管理员邮箱：liqiong@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：49.479MB
+耗时：0.19S
+错误信息：
+Class 'Jason\Ccshop\Models\OrdersAdTrack' not found
+错误文件：
+/home/wwwroot/vendor/october/rain/src/Database/Model.php 855
+堆栈信息：
+#0 /home/wwwroot/vendor/october/rain/src/Database/Model.php(683): October\Rain\Database\Model->belongsTo('Jason\\Ccshop\\Mo...', 'ad_tracks_id', NULL, 'orders_ad_track')
+#1 /home/wwwroot/vendor/october/rain/src/Database/Model.php(513): October\Rain\Database\Model->handleRelation('orders_ad_track')
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(545): October\Rain\Database\Model->__call('orders_ad_track', Array)异常通知@机器人6月12日 11:30时间：2023-06-12 12:30:55
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/rainlab/user/users
+IP：156.251.190.141
+管理员邮箱：liqiong@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+内存：50.673MB
+耗时：0.164S
+错误信息：
+Class 'Jason\Ccshop\Models\OrdersAdTrack' not found
+错误文件：
+/home/wwwroot/vendor/october/rain/src/Database/Model.php 855
+堆栈信息：
+#0 /home/wwwroot/vendor/october/rain/src/Database/Model.php(683): October\Rain\Database\Model->belongsTo('Jason\\Ccshop\\Mo...', 'ad_tracks_id', NULL, 'orders_ad_track')
+#1 /home/wwwroot/vendor/october/rain/src/Database/Model.php(513): October\Rain\Database\Model->handleRelation('orders_ad_track')
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(545): October\Rain\Database\Model->__call('orders_ad_track', Array)异常通知@机器人6月12日 11:31时间：2023-06-12 12:31:48
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/rainlab/user/users
+IP：183.14.30.0
+管理员邮箱：zhangdaihua@jing-pai.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35
+内存：7.392MB
+耗时：0.094S
+错误信息：
+Class 'Jason\Ccshop\Models\OrdersAdTrack' not found
+错误文件：
+/home/wwwroot/vendor/october/rain/src/Database/Model.php 855
+堆栈信息：
+#0 /home/wwwroot/vendor/october/rain/src/Database/Model.php(683): October\Rain\Database\Model->belongsTo('Jason\\Ccshop\\Mo...', 'ad_tracks_id', NULL, 'orders_ad_track')
+#1 /home/wwwroot/vendor/october/rain/src/Database/Model.php(513): October\Rain\Database\Model->handleRelation('orders_ad_track')
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(545): October\Rain\Database\Model->__call('orders_ad_track', Array)昨天 15:07异常通知@机器人6月12日 15:07时间：2023-06-12 16:07:41
+链接：https://kireday.com/Pv4QZMrjaswXxkCG/jason/ccshop/products
+IP：183.14.132.32
+管理员邮箱：yanlifang@jing-pai.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.878MB
+耗时：0.152S
+错误信息：
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in where clause is ambiguous (SQL: select count(*) as aggregate from `cc_products` inner join `cc_product_section_selected` on `cc_product_section_selected`.`product_id` = `cc_products`.`id` where status in ('unpublished') and `cc_product_section_selected`.`section_id` in (435) group by `cc_product_section_selected`.`product_id`)
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select count(*)...', Array, true)昨天 18:45异常通知@机器人6月12日 18:45时间：2023-06-12 19:45:24
+链接：https://www.iwaty.com/Pv4QZMrjaswXxkCG/rainlab/user/users
+IP：183.14.132.32
+管理员邮箱：zhangdaihua@jing-pai.net
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43
+内存：8.607MB
+耗时：0.137S
+错误信息：
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scz-iwaty.cc_orders_ad_tracks' doesn't exist (SQL: select * from `cc_orders_ad_tracks` where `cc_orders_ad_tracks`.`id` in (162671, 122460, 162496, 162655, 134036, 162799, 162391, 162703, 162111, 0, 162568, 162047, 162637, 135999, 162716, 162359, 129399, 82530, 134494, 162774, 162494, 134064, 162914, 162593, 162084, 82521, 162427, 162503, 162583, 162698, 162395, 162695, 162588, 162365, 162369, 162760, 135989, 162300, 162964, 162784, 82150, 162498, 106472, 106439, 162048, 162628, 162133, 162648, 162376, 162089, 162507, 162701, 162627, 162090, 135986, 61962, 162074, 82518))
+错误文件：
+/home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php 666
+堆栈信息：
+#0 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(622): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Connection.php(324): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/wwwroot/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1431): Illuminate\Database\Connection->select('select * from `...', Array, true)今天 10:19异常通知@机器人10:19尝试更新错误的迁移被阻止: 
+当前站点: https://www.iwaty.com/
+当前插件: Jason.Ccshop
+当前数据库中版本: 3.4.32
+version.yaml 最新版本: 3.4.31今天 13:24异常通知@机器人13:24时间：2023-06-13 14:24:03
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/3332
+IP：43.239.157.160
+管理员邮箱：liyujiao@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.769MB
+耗时：0.103S
+错误信息：
+Undefined index: content
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/Products.php 7578
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(7578): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 7578, Array)
+#1 [internal function]: Jason\Ccshop\Controllers\Products::onUploadProductReviews('3332')
+#2 /home/wwwroot/modules/backend/classes/Controller.php(554): call_user_func_array(Array, Array)异常通知@机器人13:24时间：2023-06-13 14:24:08
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/3332
+IP：43.239.157.160
+管理员邮箱：liyujiao@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.769MB
+耗时：0.111S
+错误信息：
+Undefined index: content
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/Products.php 7578
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(7578): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 7578, Array)
+#1 [internal function]: Jason\Ccshop\Controllers\Products::onUploadProductReviews('3332')
+#2 /home/wwwroot/modules/backend/classes/Controller.php(554): call_user_func_array(Array, Array)异常通知@机器人13:24时间：2023-06-13 14:24:13
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/3332
+IP：43.239.157.160
+管理员邮箱：liyujiao@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.769MB
+耗时：0.13S
+错误信息：
+Undefined index: content
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/Products.php 7578
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(7578): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 7578, Array)
+#1 [internal function]: Jason\Ccshop\Controllers\Products::onUploadProductReviews('3332')
+#2 /home/wwwroot/modules/backend/classes/Controller.php(554): call_user_func_array(Array, Array)今天 13:27异常通知@机器人13:27时间：2023-06-13 14:27:41
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/3332
+IP：43.239.157.160
+管理员邮箱：liyujiao@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.769MB
+耗时：0.101S
+错误信息：
+Undefined index: content
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/Products.php 7578
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(7578): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 7578, Array)
+#1 [internal function]: Jason\Ccshop\Controllers\Products::onUploadProductReviews('3332')
+#2 /home/wwwroot/modules/backend/classes/Controller.php(554): call_user_func_array(Array, Array)异常通知@机器人13:27时间：2023-06-13 14:27:48
+链接：https://www.orladys.com/Pv4QZMrjaswXxkCG/jason/ccshop/products/update/3332
+IP：43.239.157.160
+管理员邮箱：liyujiao@jiuyaoqiming.com
+设备UA：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+内存：8.769MB
+耗时：0.216S
+错误信息：
+Undefined index: content
+错误文件：
+/home/wwwroot/plugins/jason/ccshop/controllers/Products.php 7578
+堆栈信息：
+#0 /home/wwwroot/plugins/jason/ccshop/controllers/Products.php(7578): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/wwwroot/p...', 7578, Array)
+#1 [internal function]: Jason\Ccshop\Controllers\Products::onUploadProductReviews('3332')
+#2 /home/wwwroot/modules/backend/classes/Controller.php(554): call_user_func_array(Array, Array)
